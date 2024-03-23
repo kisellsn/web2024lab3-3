@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+main {
+    background-color: #eaeaea;
+    padding-bottom: 50px;
+    font-size: larger;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.menu select {
+    flex-basis: 200px;
+}
+.menu > * {
+    background-color: #000000d4;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: larger;
+}
+p {
+    color: #6f6f6f;
+}
+img {
+    object-fit: contain;
+    max-width: 400px;
+    min-width: 90px;
+}
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 40px;
+}
+h3 {
+    margin-top: 0;
+}
+.highlight {
+    font-weight: bold;
+    color: #3ba4a8;
+}
+#first ul{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+}
+#first ul li {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    width: 320px;
+    min-width: 120px;
+}
+#first ul li.reverse {
+    flex-direction: column-reverse;
+}
+#second div {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5px;
+    padding-left: 5px;
+    gap: 3%;
+}
+#partners {
+    display: flex;
+    justify-content: space-evenly;
+}
+#partners img {
+    min-width: 450px;
+    padding-right: 5px;
+}
+#partners > div {
+    width: 45%;
+}
+#partners > div > * {
+    text-align: left;
+}
