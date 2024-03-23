@@ -71,6 +71,7 @@ h3 {
 #partners {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 #partners img {
     min-width: 450px;
